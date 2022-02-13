@@ -1,4 +1,4 @@
-* {
+  * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -9,6 +9,7 @@ body {
 	margin: 0;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* mobile state */
 
 .desktopView  {
 	display: none;
@@ -22,7 +23,7 @@ body {
  /* footer */
 
  #footerLeft {
-	 display:none
+	 display: none;
  }
  
  footer {
@@ -38,25 +39,25 @@ body {
 	 height: 75px;
  }
  
- #footerRight i {
-font-size: 40px;
-cursor: pointer;
-transition: 0.2s ease-in-out;
- }
+#footerRight i {
+	font-size: 40px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
 
  #footerRight i:hover {
 	 color: rgb(218, 26,50);
  }
-
+/* header */
  header {
-	 justify-content: center;
 	 display: flex;
+	 justify-content: center;
 	 align-items: center;
 	 height: 75px;
 	 background-color: black;
  }
 
-header.mobileView img {
+header .mobileView img {
 	width: 90vw;
     height: 60px;
 }
@@ -66,19 +67,17 @@ header.mobileView img {
 .banner {
 	background-image: url(../images/img_0.jpg);
 	background-size: cover;
+	height: 85vh;
 	}
 
+main .mobileView ul li {
+    padding: 10px 0px;
+	background-color: rgb(218, 26,50);
+	text-align: center;
+	margin: 10px 0px;
+}
 
-	main .mobileView ul li {
-padding: 10px 0px;
-background-color: rgb(218, 26,50);
-text-align: center;
-margin: 10px 0px;
-
-	}
-
-	main .mobileView ul li a {
-
+main .mobileView ul li a {
 		color: white;
 		text-decoration: none;
 		font-size: large;
@@ -106,10 +105,6 @@ font-size: 2.5rem;
 text-transform: capitalize;
 }
 
-
-
-
-jjjjj
 
 
 
