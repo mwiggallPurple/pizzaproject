@@ -27,6 +27,9 @@ body {
  }
  
  footer {
+	 display: flex;
+	 justify-content: space-between;
+	 width: 100vw;
 	 background-color: black;
 	 height: 75px;
 	 color: white;
@@ -36,6 +39,7 @@ body {
 	 display: flex;
 	 justify-content: space-evenly;
 	 align-items: center;
+	 width: 100vw;
 	 height: 75px;
  }
  
@@ -104,9 +108,93 @@ text-align: center;
 font-size: 2.5rem;
 text-transform: capitalize;
 }
+/* desktop view starts here */
+@media screen and (min-width: 400px) {
+.mobileView { 
+ display:none;
+
+}
+/* footer in desktop view */
+#footerLeft {
+	display: flex;
+	align-items: flex-end;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+#footerRight {
+width: 30vw;
+}
+
+header{
+	display: block;
+	width: 100vw;
+	height: 100px;
+	background-color: black;
+}
+
+.warning {
+	height: 25px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	padding: 0.5em;
+}
+
+.navBar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 75px;
+}
+#navLeft {
+	margin-left: 4rem;
+}
+
+#navLeft img {
+	width: 200px;
+	height: 40px;
+}
+
+#navRight {
+	margin-right: 4rem;
+}
+#navRight img {
+	width: 130px;
+	height: 35px;
+}
+
+#navMiddle {
+	display: flex;
+	}
+
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	
+}
+
+nav ul li {
+	background-color: rgb(218, 26,50);
+	margin: 0px 2rem;
+	padding: 8px 15px;
+	text-align: center;
+	border-radius: 10px;
+	list-style-type: none;
+	min-width:100px;
+	transition: 0.2s ease-in-out;
+	}
+
+	nav ul li:hover {
+	transform: scale(1.1);
+	}
+ 
 
 
 
 
 
-
+}
