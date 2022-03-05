@@ -111,7 +111,11 @@ text-transform: capitalize;
 /* desktop view starts here */
 @media screen and (min-width: 400px) {
 .mobileView { 
- display:none;
+	display:none;
+}
+
+	.desktopView {
+		display: block;
 
 }
 /* footer in desktop view */
